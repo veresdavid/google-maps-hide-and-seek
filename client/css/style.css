@@ -1,0 +1,103 @@
+body{
+	background-color: #B2ECFF;
+}
+
+#map{
+	height: 600px;
+	width: 100%;
+}
+
+#nameChooser{
+	margin: 0 auto;
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 10%;
+}
+
+#name{
+	font-size: 30px;
+	border: none;
+	border-bottom: 2px solid black;
+	width: 40%;
+	text-align: center;
+	background: transparent;
+	display: block;
+	margin: 10% auto 0 auto;
+}
+
+#name:focus{
+	outline: none;
+}
+
+#sendNameButton{
+	width: 10%;
+	font-family: fantasy;
+	font-size: 20px;
+	margin: 5% auto 0 auto;
+	display: block;
+}
+
+#lobby{
+	display: none;
+}
+
+#game{
+	display: none;
+}
+
+#back{
+	display: none;
+}
+
+.gameList{
+	list-style-type: none;
+	font-size: 20px;
+	font-family: fantasy;
+	text-align: center;
+	padding-left: 0;
+}
+
+.lobbyButton{
+	margin: 0 0 0 20px;
+	font-family: fantasy;
+	font-size: 20px;
+}
+
+#lobbyContainer{
+	display: flex;
+}
+
+#usersContainer{
+	flex: 1;
+}
+
+#waitingsContainer{
+	flex: 1;
+}
+
+#invitationsContainer{
+	flex: 1;
+}
+
+h2{
+	text-align: center;
+	color: white;
+	background-color: black;
+	font-family: fantasy;
+}
+
+.gameButton{
+	font-family: fantasy;
+	font-size: 30px;
+	margin: 30px;
+}
+
+#buttonContainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

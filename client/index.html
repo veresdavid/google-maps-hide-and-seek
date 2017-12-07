@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Google Maps Hide and Seek</title>
+
+	<script type="text/javascript" src="js/socket.io.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/noty.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQsbJwNydVL6T5XXphvS72dU2YdwxUq5c"></script>
+	<script type="text/javascript" src="js/client.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/noty.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+	<div id="nameChooser">
+		<h1>Google Maps Hide and Seek</h1>
+		<input type="text" id="name" placeholder="Your name goes here" autocomplete="off" />
+		<button id="sendNameButton" onclick="sendName()">SEND</button>
+	</div>
+
+	<div id="lobby">
+		<h1>Google Maps Hide and Seek</h1>
+		<div id="lobbyContainer">
+			<div id="usersContainer">
+				<h2>Users</h2>
+				<div id="users"></div>
+			</div>
+			<div id="waitingsContainer">
+				<h2>Waitings</h2>
+				<div id="waitings"></div>
+			</div>
+			<div id="invitationsContainer">
+				<h2>Invitations</h2>
+				<div id="invitations"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="game">
+		<div id="map"></div>
+		<div id="buttonContainer">
+			<button id="send" class="gameButton">SEND</button>
+			<button id="back" class="gameButton">BACK TO THE LOBBY</button>
+		</div>
+	</div>
+
+</body>
+
+</html>
